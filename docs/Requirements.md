@@ -5,6 +5,7 @@ Rationale: The main focus of the program is on user tasks so the user must be ab
 Fit Criterion: A button that causes a form to appear with the text fields Name, Description, Start Date, End Date and prerequisite once submitted causes a box to appear in the schedule. 
 Priority: High
 Dependencies: 
+
 ---
 ID Number: 2
 Type: look and feel
@@ -13,6 +14,7 @@ Rationale: The user may require feedback on their action to confirm their action
 Fit Criterion: Once a task has been created a confirmation message should appear.
 Priority: low
 Dependencies: ID 1
+
 ---
 ID Number: 3
 Type: Functional
@@ -21,6 +23,7 @@ Rationale: Wrongful creation of tasks may occur or the task is no longer needed.
 Fit Criterion: After Clicking on a task that option to delete the task should appear. A pop up will appear once the option is selected asking to confirm deletion of the task. After the confirmation check of deleting the task the box of the corresponding task should disappear from the schedule.
 Priority: High
 Dependencies: ID1
+
 ---
 ID Number: 4
 Type: look and feel
@@ -29,6 +32,7 @@ Rationale: The user may require feedback on their action to confirm their action
 Fit Criterion: Once a task has been created a confirmation message should appear.
 Priority: Low
 Dependencies: ID 3
+
 ---
 ID Number: 5
 Type: Functional 
@@ -37,6 +41,7 @@ Rationale: Mistakes can occur in the creation of tasks or changes may be necessa
 Fit Criterion: when selecting a task the option to modify it can be selected. Once selected the detail form of the task should appear that can be edited. The changed data of the task is reflected on the viewing of the task
 Priority: High-Mid
 Dependencies: ID1
+
 ---
 ID Number: 6
 Type: Functional
@@ -45,6 +50,7 @@ Rationale: Users may want to keep track of progress on tasks.
 Fit Criterion: A button on the toolbar will have a drop down of statuses after clicking on the status the next task selected will change to the status. The task box in the schedule will change color based on status selected. 
 Priority: Mid-Low
 Dependencies: ID1, ID5
+
 ---
 ID Number: 7
 Type: Functional 
@@ -53,6 +59,7 @@ Rationale: Users may want to focus on tasks that are more important than others.
 Fit Criterion: A button on the toolbar will have a drop down of statuses after clicking on the status the next task selected will change to the status. The task box in the schedule will change border color based on status selected based. 
 Priority: Mid-Low
 Dependencies: ID1, ID5
+
 ---
 ID Number: 8
 Type: Usability
@@ -61,6 +68,7 @@ Rationale: Instead of opening up the task detail form to change the starting dat
 Fit Criterion: Once dragged to a new date the detail form of the task should reflect the changed date.
 Priority: Mid
 Dependencies: ID1
+
 ---
 ID Number: 9
 Type: Functional 
@@ -69,6 +77,7 @@ Rationale: Some tasks may need to be completed before other tasks can begin. To 
 Fit Criterion: There will be a button for linking tasks once clicked the user will click on both of the tasks they wish to connect starting with the prerequisite. A visual indication on the respective task that shows a connection with another task after being marked by the user action. The detailed form of the task will also be editable to link tasks by name.
 Priority: High-Mid
 Dependencies: ID1
+
 ---
 ID Number: 10
 Type: Functional 
@@ -77,6 +86,7 @@ Rationale: The user may be mistaken in thinking certain tasks need to be complet
 Fit Criterion: Once the action to unlink occurs the visual indication of the link should disappear from the respective tasks.
 Priority: Mid
 Dependencies: ID9
+
 ---
 ID Number: 11
 Type: Functional
@@ -85,6 +95,7 @@ Rationale: Some tasks may be for different projects that require the ability to 
 Fit Criterion: Next to the group name there should be an add and remove button. The task name should appear on the list of the group.
 Priority: Mid
 Dependencies: ID1
+
 ---
 ID Number: 12
 Type: functional 
@@ -93,6 +104,7 @@ Rationale: Users may need to reorganize the groups so the ability to remove them
 Fit Criterion: The Task should no longer appear in the group.
 Priority: Mid
 Dependencies: ID11
+
 ---
 ID Number: 13
 Type: Usability 
@@ -101,6 +113,7 @@ Rationale: Users may want to see all tasks of a group more easily on the schedul
 Fit Criterion: A clear visual change on the schedule differentiating the group tasks from other tasks.
 Priority: Low
 Dependencies: ID11
+
 ---
 ID Number: 14
 Type: Usability 
@@ -109,6 +122,7 @@ Rationale: The user may find it helpful that the button shows indication that it
 Fit Criterion: Buttons will change color when hovering on them.
 Priority: Low
 Dependencies: 
+
 ---
 ID Number: 15
 Type: Usability 
@@ -117,6 +131,7 @@ Rationale: The user will probably find it helpful that the button shows indicati
 Fit Criterion: Buttons will change color when clicking on them.
 Priority: Low
 Dependencies: 
+
 ---
 ID Number: 16
 Type: Usability 
@@ -125,6 +140,7 @@ Rationale: This may be preferable at certain times to simplify the order in whic
 Fit Criterion: A button that changes the view into a list of tasks ordered by date
 Priority: Mid-Low
 Dependencies: ID1
+
 ---
 ID Number: 17
 Type: Look and feel
@@ -133,6 +149,7 @@ Rationale: Keeping all the user tools in one location with clear icons will make
 Fit Criterion: Toolbar on top of screen
 Priority: Mid
 Dependencies:
+
 ---
 ID Number: 18
 Type: Look and feel
@@ -141,6 +158,7 @@ Rationale: There are a lot of actions the user can take but consuming too much s
 Fit Criterion: Once a button is clicked that has more tools available a drop down menu will appear.
 Priority: Mid
 Dependencies: ID17
+
 ---
 ID Number: 19
 Type: Look and feel
@@ -149,6 +167,7 @@ Rationale: This helps the user visualize the time that tasks start and end  inst
 Fit Criterion: A bar that helps show the days tasks begin and end above the task schedule.
 Priority: Mid
 Dependencies:
+
 ---
 ID Number: 20
 Type: functional 
@@ -157,4 +176,5 @@ Rationale: Depending on how the user is planning it may be necessary for them to
 Fit Criterion: A button is available in the toolbar to toggle through the various time frames.
 Priority: Mid
 Dependencies: ID19
+
 ---
