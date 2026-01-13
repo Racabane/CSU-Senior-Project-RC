@@ -144,9 +144,9 @@ Dependencies: ID1
 ---
 ID Number: 17
 Type: Look and feel
-Description: Toolbar on top of screen with all user actions(i.e. Create tasks, groups, mark status, mark priority, link) in the form of buttons to initiate actions. The UI for the tool bar must be simple and tools clear in use.
+Description: Toolbar on screen with all user actions(i.e. Create tasks, groups, mark status, mark priority, link) in the form of buttons to initiate actions. The UI for the tool bar must be simple and tools clear in use.
 Rationale: Keeping all the user tools in one location with clear icons will make it easier for user to understand how to use the product
-Fit Criterion: Toolbar on top of screen
+Fit Criterion: Toolbar on screen
 Priority: Mid
 Dependencies:
 
@@ -162,16 +162,16 @@ Dependencies: ID17
 ---
 ID Number: 19
 Type: Look and feel
-Description: A Bar below the toolbar to display the timeframe being displayed to the user. The timeframe will be by default a week and only showing tasks that are in that week. The bar will have marks indicating days almost like a ruler.
-Rationale: This helps the user visualize the time that tasks start and end  instead of having to open up the task details.
-Fit Criterion: A bar that helps show the days tasks begin and end above the task schedule.
+Description: Clear distinction on what days the task are on and the timeframe the slot is suppose to represent. 
+Rationale: This helps the user visualize the date for the tasks start instead of having to open up the task details.
+Fit Criterion: A bar or grid that helps show the day the task is scheduled.
 Priority: Mid
 Dependencies:
 
 ---
 ID Number: 20
 Type: functional 
-Description: The ability to change the time frame the schedule shows to a day or month or 3 months.
+Description: The ability to change the time frame the schedule shows to a month instead of a week.
 Rationale: Depending on how the user is planning it may be necessary for them to view a time frame of greater time then the default of a week. They could also only want to plan for the more immediate or simply focus on the more upcoming tasks so switching to a smaller time frame could give them that focus.  
 Fit Criterion: A button is available in the toolbar to toggle through the various time frames.
 Priority: Mid
