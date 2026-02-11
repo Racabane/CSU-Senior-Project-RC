@@ -47,18 +47,15 @@ I will be exploring the tool QT to determine how to implement the project. The e
 
 Schedule
 --------
-
-
-- Fall 2025 - CSCI 498
-    - September 7: A mockup of the user interface. 
-    - October 7: A prototype of the product with only the user interface and ability to create tasks. 
-    - November 7: A product with half of the planned features. 
-    - November 14: A test plan for various features that are planned for implementation. 
-    - November 21: A document reviewing the current interface determining what works well and what needs to be improved. 
-    - December 1 : Product with all planned features. 
-
 - Spring 2026 - CSCI 499
-    - January 21: A document showing the results of the implemented test plan to determine the current state of the product's functionality. 
-    - February 7: Bug fixes and updates based on test results
-    - February 12: Research on other features that other task managers have or lack to see if the project can be expanded. 
-    - March 4: defence documentation complete draft 
+    - Feb 11: 25% of test cases tested
+    - Feb 18: 100% of test cases tested
+    - Feb 25: Fix any issues found in initial testing
+    - Feb 25: Have peer go through test cases to find issues and take feedback
+    - Mar 4: Use feedback and issues found to improve project
+    - Mar 11: Begin defence presentation and documentation
+    - Mar 18: Finalize test plan and project before submission on 21
+    - Mar 18: Defence presentation and documentation with most of the content 
+    - Mar 25: Focus on improving presentation
+    - Apr 4: Defense Presentation and documentation completed
+
