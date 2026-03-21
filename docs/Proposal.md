@@ -1,4 +1,4 @@
-Senior Project Proposal (Replace with Project Name)
+Task Manager Project
 ===================================================
 
 **Student Name**: Raul Cabanellas  
@@ -10,30 +10,26 @@ Senior Project Proposal (Replace with Project Name)
 Problem Statement
 -----------------
 
-Task managers face the issue of time consuming readjustments of scheduled tasks that can be addressed by linking and grouping tasks. The ideal state of affairs is to allow the user to quickly create tasks and to quickly adjust the overall schedule. The issue with task managers is that if adjustments are needed the user may have to manually adjust multiple tasks one at a time, this process is time consuming. Resolving this issue can be done by linking and grouping tasks to be able to apply changes to many tasks at once. This solution also has the benefit of providing greater capability of organizing tasks. The organization of tasks helps to show the relationship tasks have to one another that can help the user understand the importance of completing the task. The issue of too much time being spent on readjustment of the overall task schedule can be greatly reduced by the feature of linking and grouping tasks.
-
+Time management is important so being able to create a schedule with all tasks is important. The ideal state of affairs is to allow the user to quickly create their schedule with all necessary details to ensure all tasks can be completed. The user must also be able to readjust their schedule in a short time to meet their needs. The issue of having a large amount of tasks makes it difficult for users to prioritize important tasks, see how tasks relate to one another and see their current progress on the tasks. Users may have to spend the time figuring out these details when managing their extensive amount of tasks. The issue directly goes against the ideal state of affairs as having to spend time on a tool meant to save time makes the product bad. The solution is for the product to have tools for management like marking priority, progress as well as linking and grouping tasks. These tools help users more quickly pick up the details to manage their schedule. The product of a task manager should save the user more time then it takes to set up with the use of easy to use tools.  
 
 Project Description
 -------------------
 
 The project is to develop a product that can help users with managing their tasks. The product will allow users to create tasks and fill in various details. The product will allow the user to link tasks together along with grouping them. The product will allow users to move and modify tasks and adjust the related linked tasks. The product will have a simple user interface to reduce complexity to allow the user to understand the tool quickly. The product will have the ability to mark tasks status(i.e. To do, in progress, done ). The product will allow the user to mark the importance of the task(i.e. Low priority, mid priority and high priority). These feature all for the purpose of organizing tasks and allowing quick adjustment of tasks.
 
-
 Proposed Implementation Language(s) 
 -----------------------------------
 
 C++
 
-
 Libraries, Packages, Development Kits, etc. to be used in the proposed implementation languages(s)
 --------------------------------------------------------------------------------------------------
 
-QT
+QT Framework (QT 6.9.0 kit)
 
 Additional Software/Equipment Needed
 ------------------------------------
-
-List any hardware needed and software (e.g., your IDE).
+QT Creator 17.0.0 (community)
 
 Personal Motivation
 -------------------
